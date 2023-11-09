@@ -1,0 +1,43 @@
+.cl1{
+    color: #2003fa;
+    font-family: 'Courier New', sans-serif;
+}
+.cl2{
+    color: #fa0303;
+    font-weight: 700;
+}
+.cl3{
+    color: #03fa0f;
+    font-family: 'Times New Roman', sans-serif;
+    font-style: italic;
+}
+.cl4{
+    color: #000000;
+   width: 68px;
+   height: auto;
+   border: 1px dotted red;
+   border-width: 3px;
+   padding: 0px;
+   
+
+}
+.cl5{
+    color: #2003fa;
+    font-weight: 700;
+    font-style: italic;
+}
+.cl6{
+    
+    font-weight: 700;
+    
+}
+.yellow{
+    color:rgb(243, 230, 45);
+  }
+  .back{
+    background-color: rgba(121, 164, 198, 0.639);
+  }
+  .cursive{
+    font-style: italic;
+  }
+
