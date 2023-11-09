@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="laba6.css" type="text/css">
+
+    <title>lb6</title>
+</head>
+
+<body>
+    <table border="1" class="tb">
+        <tr class="c11">
+            <td class="cl1" onmouseover="this.className='cl2'" onmouseout="this.className='cl5'">Элемент1</td>
+            <td class="cl1" ondblclick= "this.className='cl3'">Элемент2</td>
+            <td class="cl1" onclick="this.className='cl4'">Элемент3</td>
+            <td class="cl1" onmouseover="this.className='yellow'">Элемент4</td>
+            <td class="cl1" ondblclick="this.className='back'">Элемент5</td>
+            <td class="cl1" onclick="this.className='cursive'">Элемент6</td>
+        </tr>
+    </table>
+ 
+    
+
+
+    <button onclick="addNumber(1)">1</button>
+    <button onclick="addNumber(2)">2</button>
+    <button onclick="addNumber(3)">3</button>
+    <button onclick="addNumber(4)">4</button>
+    <button onclick="addNumber(5)">5</button>
+    <br>
+    <button onclick="showResult()">Результат</button>
+
+
+    <script>
+        var name = prompt('как твое имя', '');
+        if (name!="" && name!=null) 
+        alert('Привет,'+name+'!');
+        else 
+         alert('привет НН');
+        </script>
+
+<h3 class="text" onmouseover="enlargeText()" onclick="resetText()">Я, Жойдик Алексей, работаю с JS</h3>
+
+    
+    <script src="./laba6.js"></script>
+</body>
+
+</html>
